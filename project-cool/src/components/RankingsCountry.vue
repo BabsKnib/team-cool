@@ -22,6 +22,7 @@
         </v-row>
       </v-container>
       <div class="inline"></div>
+      <h3>Country: Cambodia</h3>
     </center>
     <v-simple-table class="ranking_table">
       <template v-slot:default>
