@@ -41,8 +41,8 @@
             <h3>Planet saver</h3>
             <p>50 times recycle</p>
           </v-col>
-          </v-row>
-          <v-row>
+        </v-row>
+        <v-row>
           <v-col>
             <v-img
               contain
@@ -78,101 +78,99 @@
     </v-container>
     <v-container>
       <center>
-        <h3>Recycle History</h3>
+        <h2>Recycle History</h2>
       </center>
     </v-container>
     <v-container>
       <center>
-        <h2>Statistics</h2>
         <v-simple-table class="statistics_table">
-      <template v-slot:default>
-        <thead class="statistics_heading">
-          <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Plastic Type</th>
-            <th>Dimensions (cm)</th>
-            <th>Weight (g)</th>
-            <th>Bin #</th>
-            <th>Bin Country</th>
-            <th>Got COOLs</th>
-            <th>Got SAVERs</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2020-11-20</td>
-            <td>12:39</td>
-            <td>PP</td>
-            <td>2 x 10 x 5</td>
-            <td>800</td>
-            <td>51</td>
-            <td>Italy</td>
-            <td>1.20</td>
-            <td>1.26</td>
-          </tr>
-          <tr>
-            <td>2020-11-27</td>
-            <td>12:41</td>
-            <td>PP</td>
-            <td>14 x 10 x 20</td>
-            <td>741</td>
-            <td>12</td>
-            <td>Italy</td>
-            <td>1.51</td>
-            <td>1.6</td>
-          </tr>
-          <tr>
-            <td>2020-12-10</td>
-            <td>17:39</td>
-            <td>PP</td>
-            <td>21 x 5 x 5</td>
-            <td>360</td>
-            <td>51</td>
-            <td>Italy</td>
-            <td>1.18</td>
-            <td>1.22</td>
-          </tr>
-          <tr>
-            <td>2020-12-28</td>
-            <td>19:32</td>
-            <td>CA</td>
-            <td>12 x 10 x 5</td>
-            <td>244</td>
-            <td>14</td>
-            <td>Italy</td>
-            <td>3.38</td>
-            <td>5.33</td>
-          </tr>
-          <tr>
-            <td>2020-12-29</td>
-            <td>11:34</td>
-            <td>CA</td>
-            <td>2 x 1 x 15</td>
-            <td>128</td>
-            <td>14</td>
-            <td>Italy</td>
-            <td>3.40</td>
-            <td>5.38</td>
-          </tr>
-          <tr>
-            <td>2020-12-30</td>
-            <td>11:09</td>
-            <td>ABS</td>
-            <td>10 x 10 x 15</td>
-            <td>512</td>
-            <td>14</td>
-            <td>Italy</td>
-            <td>1.75</td>
-            <td>2.05</td>
-          </tr>
-        </tbody>
-      </template>
-    </v-simple-table>
+          <template v-slot:default>
+            <thead class="statistics_heading">
+              <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Plastic Type</th>
+                <th>Dimensions (cm)</th>
+                <th>Weight (g)</th>
+                <th>Bin #</th>
+                <th>Bin Country</th>
+                <th>Got COOLs</th>
+                <th>Got SAVERs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2020-11-20</td>
+                <td>12:39</td>
+                <td>PP</td>
+                <td>2 x 10 x 5</td>
+                <td>800</td>
+                <td>51</td>
+                <td>Italy</td>
+                <td>1.20</td>
+                <td>1.26</td>
+              </tr>
+              <tr>
+                <td>2020-11-27</td>
+                <td>12:41</td>
+                <td>PP</td>
+                <td>14 x 10 x 20</td>
+                <td>741</td>
+                <td>12</td>
+                <td>Italy</td>
+                <td>1.51</td>
+                <td>1.6</td>
+              </tr>
+              <tr>
+                <td>2020-12-10</td>
+                <td>17:39</td>
+                <td>PP</td>
+                <td>21 x 5 x 5</td>
+                <td>360</td>
+                <td>51</td>
+                <td>Italy</td>
+                <td>1.18</td>
+                <td>1.22</td>
+              </tr>
+              <tr>
+                <td>2020-12-28</td>
+                <td>19:32</td>
+                <td>CA</td>
+                <td>12 x 10 x 5</td>
+                <td>244</td>
+                <td>14</td>
+                <td>Italy</td>
+                <td>3.38</td>
+                <td>5.33</td>
+              </tr>
+              <tr>
+                <td>2020-12-29</td>
+                <td>11:34</td>
+                <td>CA</td>
+                <td>2 x 1 x 15</td>
+                <td>128</td>
+                <td>14</td>
+                <td>Italy</td>
+                <td>3.40</td>
+                <td>5.38</td>
+              </tr>
+              <tr>
+                <td>2020-12-30</td>
+                <td>11:09</td>
+                <td>ABS</td>
+                <td>10 x 10 x 15</td>
+                <td>512</td>
+                <td>14</td>
+                <td>Italy</td>
+                <td>1.75</td>
+                <td>2.05</td>
+              </tr>
+            </tbody>
+          </template>
+        </v-simple-table>
       </center>
     </v-container>
   </v-container>
-  
 </template>
 
 <script>

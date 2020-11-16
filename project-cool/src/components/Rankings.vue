@@ -37,7 +37,7 @@
         <tbody v-for="user in users" :key="user.address">
           <tr>
             <td>{{ users.indexOf(user) + 1 }}</td>
-            <td>{{ user.address }}</td>
+            <td>{{ user.userId }}</td>
             <td>{{ getTotalWeight(user.userId) }}</td>
             <td>{{ getTotalEmissionSaved(user.userId) }}</td>
             <td>{{ getTotalVistedBins(user.userId) }}</td>

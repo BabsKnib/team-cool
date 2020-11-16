@@ -97,7 +97,7 @@
           participate in ‘family pools’ or ‘municipality’ pools for extra
           tokens.
         </p>
-        <p style="color: red">
+        <p>
           A view on these tokens, waste collected and turned in, money made and
           more can be viewed via an online wallet. ADD INFO ON THE WALLET AND
           ITS USAGE This wallet allows collectors to use as proof of savings &
@@ -236,7 +236,7 @@
 
 <style scoped>
 .about {
-  width: 1000px;
+  width: 1400px;
 }
 
 .big {
