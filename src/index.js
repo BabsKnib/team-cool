@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import { Layout } from "antd";
+
+import App from "./App";
+import NavBar from "./components/NavBar";
+
+import Home from "./components/pages/Home";
+import ScreenRepair from "./components/pages/ScreenRepair";
+
+const { Header, Footer, Content } = Layout;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Layout>
+    <BrowserRouter>
+      <Header>
+        <NavBar />
+      </Header>
+      <Content>
+        <Route path="/reparatie-aanvragen" component={ScreenRepair}></Route>
+        <Route path="/" exact component={Home}></Route>
+      </Content>
+      <Footer>
+        <p>Gemaakt door Bas Abbink</p>
+        <p>Opzoeken: de iphone modellen, wat ik ga repareren, welke kleuren scherm er zijn</p>
+      </Footer>
+    </BrowserRouter>
+  </Layout>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

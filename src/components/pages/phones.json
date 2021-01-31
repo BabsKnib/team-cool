@@ -1,0 +1,50 @@
+{
+    "iPhone 6": {
+        "Scherm": 60,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 6 Plus": {
+        "Scherm": 70,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 6s": {
+        "Scherm": 70,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 6s Plus": {
+        "Scherm": 80,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 7": {
+        "Scherm": 90,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 7 Plus": {
+        "Scherm": 100,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 8": {
+        "Scherm": 100,
+        "Batterij": 35,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone 8 Plus": {
+        "Scherm": 110,
+        "Batterij": 45,
+        "Kleuren": ["Zwart", "Wit"]
+    },
+    "iPhone X": {
+        "Scherm": "Uitverkocht",
+        "Batterij": 45
+    },
+    "Anders": {
+        "Scherm": "Mail voor prijs",
+        "Batterij": 45
+    }
+}
